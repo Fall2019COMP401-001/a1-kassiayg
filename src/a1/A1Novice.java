@@ -33,9 +33,12 @@ public class A1Novice {
 				z = z + y;
 			}
 			total = total + z;
+
 		}		
-				
-		System.out.println(nameOfCustomer + ": " + total);
+		
+		String pls = String.format("%.2f", total);
+
+		System.out.println(nameOfCustomer + ": " + pls);
 
 	}
 		
